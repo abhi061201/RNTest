@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders UserList correctly 1`] = `
+<View>
+  <Text>
+    Users List:
+  </Text>
+  <Text>
+    John Doe
+  </Text>
+  <Text>
+    Jane Smith
+  </Text>
+</View>
+`;
