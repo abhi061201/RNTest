@@ -9,4 +9,11 @@ module.exports = {
   globals: {
     __DEV__: true,  // Ensure that Jest runs in development mode
   },
+  collectCoverage: true, // Enable code coverage
+  collectCoverageFrom: [
+    'src/**/*.{js,jsx,ts,tsx}', // Specify directories to measure coverage
+    '!src/**/*.d.ts', // Exclude type definition files
+    '!src/**/index.{js,ts}', // Exclude index files
+  ],
+  coverageReporters: ['json', 'lcov', 'text', 'clover'], // Coverage report formats
 };

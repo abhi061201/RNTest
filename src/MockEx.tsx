@@ -17,5 +17,3 @@ const MockEx = (props: MockExtype) => {
 };
 
 export default MockEx;
-
-const styles = StyleSheet.create({});
